@@ -5,72 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laura's HTML Project</title>
 </head>
-<nav>
-  <a href="google.com">Home</a>
-  <a href="google.com">About</a>
-  <a href="google.com">Contact</a>
-</nav>
 <body>
+  <a href="npower.com">Home</a>
+  <a href="npower.com">About</a>
+  <a href="npower.com">Contact</a>
+</nav>
+  <form>
     <fieldset>
-      <legend><h1>IT Team Members</h1></legend>
-      <strong>Add New Team Member</strong>
-      <form>
-        <div id="IT Team Members Form Input">
-          <p>First Name:</p>
-            <input type="text" placeholder="First name" min="5" max="100">
-          <p>Last Name:</p>
-            <input type="text" placeholder="Last Name" min="5" max="100">
-          <p>Role:</p>
-            <input type="text" placeholder="Role" min="5" max="100">
-          <p>Email:</p>
-            <input type="text" placeholder="Email" min="5" max="100">
+      <legend>IT Team Members</legend>
+    <strong>Add New Team Member</strong>
+    <div id="ITFormInput">
+        <p>First Name:</p>
+        <input type="text" placeholder="First name">
+        <p>Last Name:</p>
+          <input type="text" placeholder="Last Name">
+        <p>Role:</p>
+          <input type="text" placeholder="Role">
+        <p>Email:</p>
+          <input type="text" placeholder="Email">
 <br>
 <br>
-        <div id="Submit Button for Form">
-            <input type="submit" value="Add Member"></type> 
-        </div>
-        </div>
-      </form>
+      <div id="ITSubmitButton">
+          <input type="submit" value="Add Member"> 
+      </div>
+    </div>
     </fieldset>
+  </form>
 <br>
 <br>
-        <div id="It Team Members Results">
-            <table border="2">
-                <thead><strong>IT Team Members Information</strong></thead>
-                <tbody>
-                    <tr>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Role</th>
-                        <th>Email Address</th>
-                    </tr>
-                    <tr>
-                        <td>Andy</td>
-                        <td>Homes</td>
-                        <td>IT Specialist</td>
-                        <td>ahomes@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td>Sally</td>
-                        <td>Suess</td>
-                        <td>Project Manager</td>
-                        <td>ssuess@gmail.com</td>
-                    </tr>
-                    <tr>
-                      <td>Billy</td>
-                      <td>Bob</td>
-                      <td>Web Developer</td>
-                      <td>bbob@gmail.com</td>
-                    </tr>
-                </tbody>
-              <tfoot>
-                (Admin note: Form submissions will populate in table below)
-              </tfoot>
-            </table>
-            
-        </div>
-</body><br>
+    <div id="ItTeamMembersResults">
+        <strong>IT Team Members Information</strong>
+        <table class="IT Team Members Results" border="1">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Role</th>
+              <th>Email Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Andy</td>
+              <td>Homes</td>
+              <td>IT Specialist</td>
+              <td>ahomes@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Sally</td>
+              <td>Suess</td>
+              <td>Project Manager</td>
+              <td>ssuess@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Billy</td>
+              <td>Bob</td>
+              <td>Web Developer</td>
+              <td>bbob@gmail.com</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Note for Admin:</td>
+              <td>Each submission will populate in table.</td>
+            </tr>
+          </tfoot>
+        </table>
+    </div>
+<br>
 <footer>
   NPower © 2024
 </footer>
+</body>
 </html>
